@@ -106,6 +106,7 @@ include "includes/form-messages.inc.php";
 						<select name="edituserprefsform[nzb_search_engine]">
 							<option <?php if ($edituserprefsform['nzb_search_engine'] == 'binsearch') { echo 'selected="selected"'; } ?> value="binsearch">Binsearch</option>
 							<option <?php if ($edituserprefsform['nzb_search_engine'] == 'nzbindex') { echo 'selected="selected"'; } ?> value="nzbindex">NZBIndex</option>
+							<option <?php if ($edituserprefsform['nzb_search_engine'] == 'google') { echo 'selected="selected"'; } ?> value="google">Google</option>
 						</select>
 					</dd>
 
